@@ -2,6 +2,9 @@
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.Base.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.Base.svg)
 
+![iOS Version](https://img.shields.io/badge/Xamarin.iOS-iOS_10-blue)
+![Android Version](https://img.shields.io/badge/Xamarin.Android-API_23-brightgreen)
+
 Provides base classes to implement a Xamarin Plugin.
 
 ## Installation
