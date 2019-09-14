@@ -1,0 +1,24 @@
+<Project Sdk="MSBuild.Sdk.Extras/2.0.29">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid90</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SByteDev.Xamarin.Plugins.Base</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Title>Xamarin Plugin Base</Title>
+        <Description>Base classes for Xamarin Plugin.</Description>
+        <Copyright>SByteDev</Copyright>
+        <Authors>Prin53, SByteDev</Authors>
+        <Owners>Prin53, SByteDev</Owners>
+        <NeutralLanguage>en</NeutralLanguage>
+        <PackageTags>xamarin, plugin</PackageTags>
+        <PackageIconUrl>https://i.imgur.com/DtkfyPTm.jpg</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/SByteDev/Net.Xamarin.Plugins.Base</PackageProjectUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/SByteDev/Net.Xamarin.Plugins.Base</RepositoryUrl>
+    </PropertyGroup>
+
+</Project>
