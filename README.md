@@ -2,8 +2,9 @@
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.Base.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.Base.svg)
 
-![iOS Version](https://img.shields.io/badge/Xamarin.iOS-iOS_10-blue)
-![Android Version](https://img.shields.io/badge/Xamarin.Android-API_23-brightgreen)
+[![Build Status](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.Base.svg?branch=master)](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.Base)
+[![codecov](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.Base/branch/master/graph/badge.svg)](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.Base)
+[![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.base/badge)](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.base)
 
 Provides base classes to implement a Xamarin Plugin.
 
