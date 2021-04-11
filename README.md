@@ -1,8 +1,8 @@
 # Xamarin Plugin Base
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.Base.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.Base.svg)
-[![Build Status](https://img.shields.io/bitrise/6cb4d8acbc0f0799/develop?label=development&token=-YOYhlDqo79H3dl6PJDj-g&branch)](https://app.bitrise.io/app/6cb4d8acbc0f0799)
-[![Build Status](https://img.shields.io/bitrise/6cb4d8acbc0f0799/master?label=production&token=-YOYhlDqo79H3dl6PJDj-g&branch)](https://app.bitrise.io/app/6cb4d8acbc0f0799)
+[![CI](https://github.com/SByteDev/Net.Xamarin.Plugins.Base/actions/workflows/ci.yml/badge.svg)](https://github.com/SByteDev/Net.Xamarin.Plugins.Base/actions/workflows/ci.yml)
+[![CD](https://github.com/SByteDev/Net.Xamarin.Plugins.Base/actions/workflows/cd.yml/badge.svg)](https://github.com/SByteDev/Net.Xamarin.Plugins.Base/actions/workflows/cd.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.base/badge)](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.base)
 
 Provides base classes to implement a Xamarin Plugin.
