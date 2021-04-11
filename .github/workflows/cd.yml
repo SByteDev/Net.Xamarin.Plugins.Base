@@ -8,7 +8,7 @@ on:
 jobs:
   CD:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
 
@@ -18,9 +18,12 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
 
+    - name: Restore NuGet packages
+      run: nuget restore
+
     - name: Build
-      run: dotnet pack --configuration Release
-    
+      run: MSBuild /t:SByteDev_Xamarin_Plugins_Base /p:Configuration=Release
+      
     - name: Upload to NuGet
       run: dotnet nuget push SByteDev.Xamarin.Plugins.Base/bin/Release/*.nupkg --source nuget.org --api-key ${{secrets.NUGET_API_KEY}} --skip-duplicate
     
