@@ -9,7 +9,7 @@ on:
 jobs:
   CI:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
 
@@ -19,5 +19,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
 
+    - name: Restore NuGet packages
+      run: nuget restore
+
     - name: Build
-      run: dotnet build --configuration Release
+      run: MSBuild /t:SByteDev_Xamarin_Plugins_Base /p:Configuration=Release
